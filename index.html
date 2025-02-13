@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="container w-50 my-5">
+      <!-- Email input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="email" id="form2Example1" class="form-control" />
+        <label class="form-label" for="form2Example1">الايميل</label>
+      </div>
+
+      <!-- Password input -->
+      <div data-mdb-input-init class="form-outline mb-4">
+        <input type="password" id="form2Example2" class="form-control" />
+        <label class="form-label" for="form2Example2">كلمة المرور</label>
+      </div>
+
+      <!-- 2 column grid layout for inline styling -->
+      <div class="row mb-4">
+        <div class="col d-flex justify-content-center">
+          <!-- Checkbox -->
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="form2Example31"
+              checked
+            />
+            <label class="form-check-label" for="form2Example31">
+              تذكرنى
+            </label>
+          </div>
+        </div>
+
+        <div class="col">
+          <!-- Simple link -->
+          <a href="#!">هل نسيت كلمة المرور؟</a>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button
+        type="button"
+        data-mdb-button-init
+        data-mdb-ripple-init
+        class="btn btn-primary btn-block mb-4"
+      >
+        تسجيل دخول
+      </button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+        <p>غير مسجل؟<a href="#!">تسجيل</a></p>
+        <p>سجل دخول مع:</p>
+      </div>
+    </form>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
